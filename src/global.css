@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+
+    --layout-gray-900: #121214;
+    --layout-gray-800: #202024;
+    --layout-gray-700: #29292E;
+
+    --text-white-400: #E1E1E6;
+    --text-gray-300: #8D8D99;
+
+    --green-400: #00B37E;
+    --button-green-400: #00875F;
+}   
+
+body, button, input {
+    font-family: 'Roboto', sans-serif;
+}
