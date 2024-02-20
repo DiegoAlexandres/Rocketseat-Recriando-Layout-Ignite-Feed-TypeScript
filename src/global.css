@@ -21,3 +21,7 @@
 body, button, input {
     font-family: 'Roboto', sans-serif;
 }
+
+body {
+    background: var(--layout-gray-900);
+}
