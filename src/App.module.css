@@ -1,0 +1,27 @@
+.wrapper {
+    max-width: 112.0rem;
+    margin: 2rem auto;
+    padding: 0 1.6rem;
+
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 1.6rem;
+    align-items: flex-start;
+}
+
+.wrapper aside {
+    height: 300px;
+    border-radius: 8px;
+    color: var(--text-white-400);
+    padding: 1.6rem;
+    background: var(--layout-gray-800);
+}
+
+
+.wrapper main {
+    height: 620px;
+    border-radius: 8px;
+    color: var(--text-white-400);
+    padding: 1.6rem;
+    background: var(--layout-gray-800);
+}
